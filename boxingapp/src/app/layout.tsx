@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='bg-background h-full'>
+    <html lang="en" className='bg-black h-full'>
       <body className={`${inter.className}   container mx-auto p-4`} >
           <Header/>
         {children}

@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 
 function Header() {
   return (
-    <header>
+    <header className='bg-green-400 mt-3 '>
       <div className='bg-black flex items-center w-full justify-between rounded-md px-1 '>
         {/* logo */}
         <div>
@@ -30,7 +30,7 @@ function Header() {
         <div>
           <Button className='bg-button' >SIGNIN</Button>
         </div>
-      </div>out
+      </div>
     </header>
   );
 }
