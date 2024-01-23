@@ -1,12 +1,14 @@
 import React from 'react'
 import { Button } from '../ui/button'
+import Htext from '../shared/Htext'
 
 const Upperabout = () => {
   return (
     <section className='w-full flex items-center justify-center p-2 mt-5'>
   <div className='flex flex-col  gap-4  items-center justify-center'>
     <div>
-      <h1 className='text-bold text-[30px] text-center'>About Jayden Martin</h1>
+        <Htext className="text-center">About Jayden Martin</Htext>
+      <h1 className='text-bold text-[30px] text-center'></h1>
       <p className='text-center'>Tailwind lets you conditionally apply utility classes in different states using variant modifiers.<br/> You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more.</p>
     </div>
     <Button className='bg-button'>Read the story</Button>

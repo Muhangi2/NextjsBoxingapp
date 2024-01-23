@@ -5,7 +5,7 @@ import Lowerabout from './lowerabout'
 const About = () => {
   return (
     <>
-    <div className='bg-green-500'>
+    <div className='w-full bg-gradient-to-t from-background' style={{background: "linear-gradient(to top left, #3490dc)"}}>
     <Upperabout/> 
     <Lowerabout/>
     </div>

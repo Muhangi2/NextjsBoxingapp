@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 
 function Header() {
   return (
-    <header className='bg-green-400 mt-3 '>
+    <header className='mt-3 '>
       <div className='bg-black flex items-center w-full justify-between rounded-md px-1 '>
         {/* logo */}
         <div>
