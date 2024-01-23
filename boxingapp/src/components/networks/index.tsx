@@ -6,7 +6,9 @@ type Props = {
 
 const Networks = (props: Props) => {
   return (
-    <div>index</div>
+    <div>
+        
+    </div>
   )
 }
 

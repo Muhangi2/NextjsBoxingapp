@@ -7,7 +7,7 @@ import { Button } from './ui/button';
 function Header() {
   return (
     <header className='mt-3 '>
-      <div className='bg-black flex items-center w-full justify-between rounded-md px-1 '>
+      <div className='bg-black flex items-center w-full justify-between rounded-md px-1 border border-spacing-2 border-button '>
         {/* logo */}
         <div>
           <Image src={logo} alt='name' />
