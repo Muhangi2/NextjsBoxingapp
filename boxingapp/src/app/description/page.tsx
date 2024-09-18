@@ -1,5 +1,13 @@
-import React from 'react'
-import Header from '@/components/Headerr'
+import React from 'react' 
+import Link from 'next/link' 
+import {
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    BreadcrumbList,
+    BreadcrumbPage,
+    BreadcrumbSeparator } from '@/components/ui/breadcrumb'
+
 
 type Props = {}
 
@@ -7,13 +15,27 @@ const page = (props: Props) => {
   return (
     //Breacdcrumb
     <div>
-    <ul>
-        <li>Choose your fighter</li>
-        <li>Jayden Martin</li>
-        <li>Story</li>
-    </ul>
+        <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem>
+          <BreadcrumbLink>
+            <Link href="/">Choose your fighter</Link>
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbLink>
+            <Link href="/components">Jayden Smith</Link>
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage>Stories</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+        {/* profile */}
     <div>
-        <Header/>
         <div>
             <h1>Jayden Smith</h1>
             <p>Story</p>
@@ -25,3 +47,4 @@ const page = (props: Props) => {
   )
 }
 export default page
+///latest
